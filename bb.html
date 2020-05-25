@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Om Desai's Brick Breaker</title>
+	<link rel="stylesheet" href="bbStyles.css">
+	<script src="brickbreaker_mobile.js"></script>
+	<script src="brickbreaker_mobile_phone.js"></script>
+	<script src="brickbreaker_mobile_collison.js"></script>
+	<script src="brickbreaker_mobile_functions.js"></script>
+</head>
+<body>
+<br/>	<br/>	<br/>	<br/>
+<div id="div1" align=center>
+	<canvas id="Headingcanvas" width="825px" height="50px">
+	</canvas>
+	<canvas id="Topcanvas" width="825px" height="30px">
+	</canvas>
+	<canvas id="Topcanvas2" width="825px" height="30px">
+	</canvas>
+	<canvas id="BBcanvas" width="975px" height="545px">
+	</canvas>
+	<span id='ct' style="background-color: #FFFF00"></span>
+	<br/>
+	<br/>
+	<div id="div2" align=center>
+		<input type="radio" name="complexity" value="1" class="complexity"><label for="1">Begin</label></input> &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="complexity" value="2" class="complexity"><label for="2">Easy</label></input> &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="complexity" value="3" class="complexity"><label for="3">Medium</label></input> &nbsp;&nbsp;&nbsp;
+		<input type="radio" name="complexity" value="3.3" class="complexity"><label for="3.3">Hard</label></input> &nbsp;&nbsp;&nbsp;
+	<div>
+	<br/>
+	<br/>
+	<button id="start" class="button1">Start</button>
+	<button id="pause" style="display: none;" class="button1">Pause</button>
+</div>
+
+<div class="footer">
+	<br/>
+	By: Om Desai 
+	<br/>
+	@Team AIRO
+	<br/>
+	<a target="_blank" href="http://www.airobotics.us">(www.airobotics.us)</a>
+	<br/>
+	<a target="_blank" href="https://www.facebook.com/AIROTeamUS">(www.facebook.com/AIROTeamUS)</a>
+	<br/>
+</div>
+
+<div id="divO" style="display: none;">
+	<b>Orientation.gamma:</b> <span id='Ogamma'></span>	
+</div>
+
+</body>
+</html>
